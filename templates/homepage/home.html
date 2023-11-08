@@ -184,8 +184,32 @@
 <p style="text-align:center; letter-spacing: 4px; margin:20px;">GOOD BYE</p>
 
 
-
-
+<style>
+       .imran-text {
+         margin-left: 10%;
+         margin-top: -50px;
+         font-family: 'Major Mono Display', monospace;
+         color: white;
+         font-size: 72px;
+         /* Set the font size */
+         font-weight: bold;
+         /* Optional: Set the font weight */
+         color: transparent;
+         /* Make the text transparent */
+         background-image: url('{% static "image/imran.png" %}');
+         /* Set the background image */
+         background-size: cover;
+         /* Cover the entire element with the background image */
+         background-clip: text;
+         /* Clip the background image to the text */
+         -webkit-background-clip: text;
+         /* For Safari */
+         background-position: 20% 15%;
+         color: transparent;
+         /* Set the text color to transparent */
+         z-index: 10;
+     }
+</style>
 
 
 {% endblock %}
