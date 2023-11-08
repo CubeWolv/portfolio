@@ -1,0 +1,521 @@
+     @media (max-width:1105px) {
+         .box-3-container {
+             position: absolute;
+             left: 50%;
+             top: 105%;
+             transform: translate(-50%, -50%);
+         }
+
+         .box-3-container svg {
+             width: 400px;
+             height: 400px;
+         }
+
+         .box-3-container rect {
+             width: 300px;
+             height: 300px;
+         }
+
+     }
+
+     @media (max-width:935px) {
+         .container-2 {
+             margin-top: 20%;
+         }
+
+         .introduction-for-first-page {
+             width: 100%;
+         }
+     }
+
+     @media (max-width:769px) {
+         .imran-text h1 {
+             font-size: 90px;
+             margin-left: -10px;
+         }
+
+         .introduction-for-first-page h3 {
+             margin-top: -10%;
+         }
+
+         .box-3-container {
+             position: absolute;
+             left: 50%;
+             top: 115%;
+             transform: translate(-50%, -50%);
+         }
+
+         .box-3-container svg {
+             width: 350px;
+             height: 250px;
+         }
+
+         .box-3-container rect {
+             width: 250px;
+             height: 150px;
+         }
+
+         .myworks-projects-boxes {
+             width: 100%;
+             height: 80vh;
+         }
+
+         .projects-box1 {
+             margin: 0%;
+         }
+
+     }
+
+     @media(max-width:550px) {
+         .aboutme-words {
+             width: 75%;
+         }
+
+         .myworks-projects-boxes {
+             width: 100%;
+             height: 80vh;
+             display: list-item;
+         }
+
+         .projects-box1 {
+             height: 80%;
+             width: 30%;
+             margin: 0%;
+             border-radius: 10px;
+             transition: transform 0.3s ease;
+             /* Add smooth transition for transform property */
+             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+             position: static;
+         }
+     }
+
+     @media (max-width:710px) {
+         .container-2 {
+             margin-top: 35%;
+         }
+     }
+
+     .contact-box-e-p-container {
+         display: flex;
+     }
+
+     .contact-box {
+         width: 40%;
+         height: 20%;
+         margin: 8%;
+         padding: 5%;
+         box-shadow: rgba(156, 18, 18, 0.2) 0px 2px 8px 0px;
+         cursor: pointer;
+     }
+
+     .let-us-work-together h1 {
+         background: linear-gradient(to right, blue, black);
+         -webkit-background-clip: text;
+         background-clip: text;
+         color: transparent;
+         font-size: 35px;
+         font-weight: bold;
+     }
+
+     .container-for-contact {
+         margin-top: 70px;
+     }
+
+     .container-for-contact h1 {
+         text-align: center;
+     }
+
+     .container-for-contact p {
+         text-align: center;
+     }
+
+     .more-button-on-myworks {
+         color: white;
+         text-align: center;
+         letter-spacing: 5px;
+         padding-bottom: 30px;
+     }
+
+     .myworks-projects-boxes {
+         width: 100%;
+         height: 80vh;
+         display: flex;
+     }
+
+     .container-for-mywork-projects {
+         background: linear-gradient(to bottom right, purple, #155A93 -10%, #21202C, black);
+
+     }
+
+     .projects-box1 {
+         height: 80%;
+         width: 30%;
+         margin: 5%;
+         border-radius: 10px;
+         transition: transform 0.3s ease;
+         /* Add smooth transition for transform property */
+         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+         position: relative;
+     }
+
+     .projects-box1 img {
+         position: absolute;
+         width: 100%;
+         height: 70%;
+     }
+
+     .projects-box1:hover {
+         transform: scale(1.1);
+         /* Zoom in effect on hover */
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+     }
+
+     .inner-works-projects-title {
+         position: absolute;
+         bottom: 0%;
+         color: white;
+         background-color: rgba(255, 255, 255, 0.075);
+         width: 100%;
+         height: 30%;
+     }
+
+     .inner-works-projects-title .p-for-projects {
+         margin-left: 3%;
+         font-weight: bold;
+         font-size: 16px;
+     }
+
+     .inner-works-projects-title p {
+         font-size: 14px;
+         margin-left: 2%;
+         margin-top: 2px;
+     }
+
+     .my-works-container1 {
+         display: flex;
+     }
+
+     .aboutus-image img {
+         width: 600px;
+     }
+
+     .aboutus-text {
+         width: 30%;
+         margin-left: 15%;
+     }
+
+     .aboutus-text h1 {
+         margin-left: 15%;
+         background: linear-gradient(to right, blue, black);
+         -webkit-background-clip: text;
+         background-clip: text;
+         color: transparent;
+         font-size: 30px;
+         font-weight: bold;
+     }
+
+     .aboutus-text h1 {
+         color-scheme: red blue;
+     }
+
+     body {
+         background: radial-gradient(circle at center, #155A93 -10%, #21202C, black);
+         height: 100%;
+         margin: 0;
+         font-family: 'Poppins', sans-serif;
+         margin: 0;
+         padding: 0;
+         background-size: cover;
+         background-repeat: no-repeat;
+         height: 100vh;
+         margin: 0;
+     }
+
+     .container-1 {
+         overflow: hidden;
+     }
+
+     .box-1 {
+         position: absolute;
+         left: 10%;
+         top: 40%;
+     }
+
+     .box-2 {
+         position: absolute;
+         right: 10%;
+         top: 18%;
+     }
+
+     .box-3-container {
+         position: absolute;
+         left: 50%;
+         bottom: -80%;
+         transform: translate(-50%, -50%);
+         overflow: hidden;
+     }
+
+     .cross-1 {
+         position: absolute;
+         left: 30%;
+         top: 15%;
+     }
+
+     .cross-2 {
+         position: absolute;
+         right: 20%;
+         top: 70%;
+     }
+
+     .cross-3 {
+         position: absolute;
+         left: 10%;
+         top: 80%;
+     }
+
+     .imran-text {
+         margin-left: 10%;
+         margin-top: -50px;
+         font-family: 'Major Mono Display', monospace;
+         color: white;
+         font-size: 72px;
+         /* Set the font size */
+         font-weight: bold;
+         /* Optional: Set the font weight */
+         color: transparent;
+         /* Make the text transparent */
+         background-image: url('{% static "image/imran.png" %}');
+         /* Set the background image */
+         background-size: cover;
+         /* Cover the entire element with the background image */
+         background-clip: text;
+         /* Clip the background image to the text */
+         -webkit-background-clip: text;
+         /* For Safari */
+         background-position: 20% 15%;
+         color: transparent;
+         /* Set the text color to transparent */
+         z-index: 10;
+     }
+
+     .first-page-words-container {
+         color: white;
+         display: flex;
+         justify-content: space-around;
+     }
+
+     .introduction-for-first-page {
+         margin-top: 10%;
+         width: 30%;
+     }
+
+     .about-me-container {
+         margin-top: 15%;
+         color: black;
+         width: 65%;
+
+     }
+
+     .about-me-heading {
+         font-size: 35px;
+         font-weight: bold;
+     }
+
+     .container-2 {
+         position: relative;
+     }
+
+     .aboutme-words {
+         text-align: center;
+
+     }
+
+     .about-me {
+         text-align: center;
+         margin-top: 10%;
+     }
+
+     .programming-icon-for-aboutme {
+         position: absolute;
+         z-index: -10;
+         top: 10%;
+     }
+
+     #icon-1 {
+         right: 2%;
+         top: 70%;
+     }
+
+     #icon-2 {
+         right: 10%;
+         top: 05%;
+     }
+
+     #icon-3 {
+         left: 5%;
+         top: 30%;
+     }
+
+     #icon-4 {
+         left: 11%;
+         top: 60%;
+     }
+
+     #icon-5 {
+         right: 4%;
+         top: 40%;
+     }
+
+
+     .my-works-container {
+         margin-top: 10%;
+     }
+
+     .my-works-container h1 {
+         font-size: 35px;
+         text-align: center;
+     }
+
+
+
+
+
+
+
+
+
+
+
+     /* Add media queries for responsiveness */
+     @media (max-width: 768px) {
+         .imran-text {
+             font-size: 36px;
+             background-position: 20% 15%;
+         }
+
+         .first-page-words-container {
+             flex-direction: column;
+             align-items: center;
+             text-align: center;
+         }
+
+         .introduction-for-first-page,
+         .aboutme-words {
+             width: 80%;
+         }
+
+         .programming-icon-for-aboutme {
+             display: none;
+         }
+
+         .my-works-container1 {
+             flex-direction: column;
+             align-items: center;
+             text-align: center;
+         }
+
+         .aboutus-image img {
+             width: 100%;
+         }
+     }
+
+     @media (max-width: 480px) {
+         .imran-text {
+             font-size: 24px;
+             background-position: 20% 15%;
+         }
+
+         .first-page-words-container {
+             margin-top: 20px;
+         }
+
+         .about-me-container {
+             width: 100%;
+         }
+     }
+
+
+
+
+     /* Existing styles */
+
+     @media (max-width: 768px) {
+         .imran-text {
+             font-size: 36px;
+             background-position: 20% 15%;
+         }
+
+         .first-page-words-container {
+             flex-direction: column;
+             align-items: center;
+             text-align: center;
+         }
+
+         .introduction-for-first-page,
+         .aboutme-words {
+             width: 80%;
+         }
+
+         .programming-icon-for-aboutme {
+             display: none;
+         }
+
+         .my-works-container1 {
+             flex-direction: column;
+             align-items: center;
+             text-align: center;
+         }
+
+         .aboutus-image img {
+             width: 100%;
+         }
+
+         .aboutus-text {
+             width: 90%;
+             /* Adjust the width for smaller screens */
+             margin: 0 auto;
+             /* Center the text */
+         }
+
+         .projects-box1 {
+             width: 90%;
+             /* Adjust the width for smaller screens */
+             margin: 5% auto;
+             /* Center the boxes */
+         }
+
+         .container-for-mywork-projects {
+             padding: 10px;
+         }
+     }
+
+     @media (max-width: 480px) {
+         .imran-text {
+             font-size: 24px;
+             background-position: 20% 15%;
+         }
+
+         .first-page-words-container {
+             margin-top: 20px;
+         }
+
+         .about-me-container {
+             width: 100%;
+         }
+
+         .aboutme-words {
+             font-size: 14px;
+         }
+
+         .aboutus-text {
+             width: 95%;
+             /* Adjust the width for smaller screens */
+         }
+
+         .projects-box1 {
+             width: 95%;
+             /* Adjust the width for smaller screens */
+             margin: 5% auto;
+             /* Center the boxes */
+         }
+     }
