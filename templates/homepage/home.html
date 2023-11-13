@@ -9,8 +9,19 @@
 {% endblock header %}
 
 {% block content %}
-<div class="container-1">
 
+<div class="container-1">
+    <div class="menu-bar">
+        <a href="#aboutus">Home</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#" class="ai-edit">IA</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+<div class="the-container-1-overlay">
+    
+    
     <div class="cross-1">
         <svg width="50px" height="50px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
@@ -82,7 +93,7 @@
             <p>Welcome to my digital space! I'm a dedicated programmer deeply passionate about technology. Explore my
                 portfolio to discover the exciting world of tech through my eyes</p>
         </div>
-    </div>
+    </div></div>
 </div>
 
 <div class="container-2">
@@ -139,18 +150,16 @@
     </div>
     <div class="container-for-mywork-projects" id="container-for-mywork-projects">
         <div class="myworks-projects-boxes" id="myworks-projects-boxes">
-            <div class="projects-box1" id="project-box1"><img src="{% static 'image/creed.png' %}">
+           <div class="projects-box1" id="project-box1"> <a href="{% url 'webdev' %}"><img src="{% static 'image/1687.jpg' %}">
                 <div class="inner-works-projects-title">
-                    <p class="p-for-projects">- CREED</p>
-                    <p>"Creed: Rise to Glory" immerses players in intense boxing matches, offering realistic graphics
-                        and gameplay.</p>
-                </div>
+                    <p class="p-for-projects">- WEB DEVELOPMENT</p>
+                    <p>"Creating exceptional websites: our expertise in web development ensures your digital presence stands out effectively."</p>
+                </div></a>
             </div>
-            <div class="projects-box1" id="project-box1"><img src="{% static 'image/creed.png' %}">
+            <div class="projects-box1" id="project-box1"><img src="{% static 'image/3054.jpg' %}">
                 <div class="inner-works-projects-title">
-                    <p class="p-for-projects">- CREED</p>
-                    <p>"Creed: Rise to Glory" immerses players in intense boxing matches, offering realistic graphics
-                        and gameplay.</p>
+                    <p class="p-for-projects">- GRAPHIC DESIGNING</p>
+                    <p>"Creating stunning visuals: Our graphic design services elevate your brand with creativity and precision."</p>
                 </div>
             </div>
             <div class="projects-box1" id="project-box1"><img src="{% static 'image/creed.png' %}">
@@ -210,7 +219,6 @@
          z-index: 10;
      }
 </style>
-
 
 
 

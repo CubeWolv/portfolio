@@ -1,5 +1,4 @@
-
-         @media (max-width:1105px) {
+@media (max-width:1105px) {
          .box-3-container {
              position: absolute;
              left: 50%;
@@ -238,7 +237,6 @@
      }
 
      body {
-         background: radial-gradient(circle at center, #155A93 -10%, #21202C, black);
          height: 100%;
          margin: 0;
          font-family: 'Poppins', sans-serif;
@@ -250,10 +248,8 @@
          margin: 0;
      }
 
-     .container-1 {
-         overflow: hidden;
-     }
 
+    
      .box-1 {
          position: absolute;
          left: 10%;
@@ -273,7 +269,13 @@
          transform: translate(-50%, -50%);
          overflow: hidden;
      }
-
+     .container-1{
+        background: radial-gradient(circle at center, #155A93 -10%, #21202C, black);
+        position: relative;
+        overflow:hidden;
+        height: 100%;
+        
+     }
      .cross-1 {
          position: absolute;
          left: 30%;
